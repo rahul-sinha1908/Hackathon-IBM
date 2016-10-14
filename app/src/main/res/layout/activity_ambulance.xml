@@ -10,9 +10,4 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.ibm.rsinha.hackathonibm.Ambulance">
 
-    <Button
-        android:text="Call the Ambulance"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_call_ambulance" />
 </LinearLayout>
