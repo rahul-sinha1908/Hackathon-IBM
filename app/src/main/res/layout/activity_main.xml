@@ -16,11 +16,13 @@
         android:text="I am a Patient"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button2" />
+        android:id="@+id/button2"
+        android:onClick="patient" />
 
     <Button
         android:text="I am a Ambulance Driver"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button" />
+        android:id="@+id/button"
+        android:onClick="ambulance" />
 </LinearLayout>

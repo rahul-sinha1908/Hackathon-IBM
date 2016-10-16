@@ -10,4 +10,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.ibm.rsinha.hackathonibm.Ambulance">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/holder_ambulance">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_line" />
+
+        <Button
+            android:text="I have seen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_seen" />
+    </LinearLayout>
 </LinearLayout>

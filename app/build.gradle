@@ -28,4 +28,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile files('libs/httpclient.jar')
     compile files('libs/httpcore.jar')
+    compile 'com.ibm.watson.developer_cloud:java-sdk:3.3.1'
 }

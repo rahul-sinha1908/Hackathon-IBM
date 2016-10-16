@@ -11,10 +11,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.ibm.rsinha.hackathonibm.Patient">
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:hint="Give your message" />
+
     <Button
         android:text="Call the Ambulance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_call_ambulance" />
+        android:id="@+id/btn_call_ambulance"
+        android:onClick="callTheAmbulance" />
 
 </LinearLayout>
